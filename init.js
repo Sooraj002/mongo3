@@ -10,7 +10,7 @@ async function main() {
 
 const chat = require("./models/chat.js")
 
-let chatsarr = [{
+let chats = [{
         from: "varun",
         to: "vivek",
         msg: "Send me your notes",
@@ -39,8 +39,8 @@ let chatsarr = [{
 
 ]
 
-chat.insertMany(chatsarr);
+chat.insertMany(chats);
 
-// chat1.save().then((res) => {
+// chat.save().then((res) => {
 //     console.log(res);
 // });
