@@ -14,3 +14,12 @@ body {
     padding: 5px 15px;
     border-radius: 10px;
 }
+
+button {
+    background-color: rgb(3, 196, 255);
+    color: white;
+    border-radius: 15px;
+    align-tracks: center;
+    border: none;
+    width: 150px;
+}
